@@ -1,0 +1,152 @@
+@font-face {
+    font-family:StSign;
+    src: url(fonts/StSign.ttf);
+}
+body {
+    font-family: 'El Messiri', sans-serif;
+    padding: 0;
+    margin: 0;
+    background-color: rgb(218, 236, 252);
+}
+.nav{
+    background: rgb(205, 216, 219);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    /*position: fixed;
+    top: 0;
+    width: 100%;*/    
+}
+.zag{
+    font-family: 'El Messiri', sans-serif;
+    font-size: 20px;
+    padding: 20;
+}
+.menu a{
+    color: #fff;
+    padding: 23px;
+    text-decoration: none;
+}
+.menu a:hover{
+    color:aquamarine;
+    background: rgb(180, 174, 174);
+}
+
+.bl1 {
+    max-height: 400px;
+    background: rgb(198, 209, 199);
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+    flex-wrap: wrap;
+}
+.name {
+    max-width: 500px;
+    display:flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+.Snt_Peterb{
+    font-size: 60px;
+    font-weight: bold;
+    text-align: center;
+}
+.city_cart{
+    display: flex;
+    flex-direction: row;
+    }
+.cart2, .cart3 {
+    max-width: 350px;
+    padding: 20px 20px 0px 20px;
+    margin-left: 40px;
+    border-radius: 0px 100px 0px 100px;
+}
+.cart1{
+    max-width: 600px;
+    padding-top: 0pt;
+    border-radius:0px 0px 50px 250px;
+}
+.bl2{
+    max-width: 1200px;
+    margin: 25px auto;
+    min-height: 50px;
+    background: rgb(208, 248, 238);
+    border-radius: 20px;
+}
+h3, h4{
+    font-family:StSign;
+    text-align: center;
+}
+p{
+    font-family:StSign;
+    font-size: 16px;
+    text-indent: 1.5em;
+    text-align: justify;
+    line-height: 1.5;
+    padding: 25px;
+}
+.Nevski, .Ermitag, .Spas_na_krovi{
+    max-width: 1200px;
+    background:rgb(208, 248, 238);
+    margin: 25px auto;
+    padding-top: 25px;
+    border-radius: 20px;
+}
+.cart_Nevski, .cart_Ermitag, .cart_Spas{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.cart4, .cart5, .cart6, .cart7, .cart8{
+    max-width: 500px;
+    margin: 30px;
+}
+.fon{
+    display: flex;
+    justify-content: space-around;
+}
+
+.block {
+    margin-top: 25px;
+    width: 400px;
+    text-align: justify;
+    text-indent: 1.5em;
+    display: flex;
+    flex-direction: column;
+}
+
+.bl3, .bl5 {
+    background: rgb(201, 201, 230);
+}
+
+.bl4 {
+    background: rgb(188, 214, 178);
+}
+.table{
+    display: flex;
+    justify-content: center;
+    font-family: StSign;
+}
+.bottom{
+    position:fixed;
+    bottom: 20px;
+    right: 20px;
+}
+
+.banner{
+    width: 100%;
+    
+
+}
+
+.banner_txt{
+    background: rgb(33, 37, 33);
+    text-align: center;
+    width: 500px;
+    font-size: 30px;
+    padding: 20px;
+    position: absolute;
+    top: 300px;
+    left: 30%;
+}
